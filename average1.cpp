@@ -19,6 +19,6 @@ int main(){
  scanf("%d %d %d", &num1,&num2,&num3);
  long result1=avr_approach1(num1,num2,num3);
  long result2=avr_approach2(num1,num2,num3);
- printf("%s,%d \n","THE RESULT OF FIRST APPROACH",result1);
- printf("%s,%d \n","THE RESULT OF SECOND APPROACH",result2);
+ printf("%s,%ld \n","THE RESULT OF FIRST APPROACH",result1);
+ printf("%s,%ld \n","THE RESULT OF SECOND APPROACH",result2);
   }
